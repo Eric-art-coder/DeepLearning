@@ -65,11 +65,23 @@ const delay = timeout => new Promise(resolve => setTimeout(resolve, timeout));
 // g().then(v=>console.log(v)).catch(err=>console.log(err));
 
 // 等待平行任务
-async function series(){
-    const await1 = delay(1000);
-    const await2 = delay(1000);
-    await await1;
-    await await2;
-    return 'done'
-}
-series();
+// async function series(){
+//     const await1 = delay(1000);
+//     const await2 = delay(1000);
+//     await await1;
+//     await await2;
+//     return 'done'
+// }
+// series();
+
+// 一种通过array.map 返回Promsie函数的数组
+// const mapReturnFunciton = [1000,2000,3000].map( async num =>{
+//     const response = await delay(num);
+//     return response;
+// })
+
+// mapReturnFunciton.forEach((fn, index) =>{
+//     fn.then(res=>{
+//         console.log(index)
+//     })
+// })

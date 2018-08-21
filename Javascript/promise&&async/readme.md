@@ -2,6 +2,14 @@
 
 
 
+### note点
+1. await的任何内容都通过Promise.resolve()传递，这样就可以安全的await非原生Promise；
+2. 构造函数以及getter/settings方法不能是异步的；
+3. 尽管编写的是同步的代码，但是也不要错失并行执行的机会，不然你需要消耗等待的性能丧失；
+4. Babel REPL 说起来很有趣。试试就知道。 
+
+
+
 ### 参考文档
 1. 这一系列的文档讲的很不错
 https://juejin.im/post/5b777f1c6fb9a019be2799e5
