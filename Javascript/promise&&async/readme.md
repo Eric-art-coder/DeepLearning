@@ -205,6 +205,9 @@ series();
 
 ```
 
+### 欢迎提意见
+[github](https://github.com/guimeisang/DeepLearning/tree/master/Javascript/promise%26%26async)
+
 ### 参考文档
 1. 这一系列的文档讲的很不错
 https://juejin.im/post/5b777f1c6fb9a019be2799e5
