@@ -33,14 +33,14 @@ const delay = timeout => new Promise(resolve => setTimeout(resolve, timeout));
 // })
 
 // 场景：只有一个await并且 resolve
-// const delay = timeout => new Promise(resolve => setTimeout(resolve, timeout));
-// async function f(){
-//     await delay(1000);
-//     await delay(2000);
-//     await delay(3000);
-//     return 'done'
-// }
-// f().then(v=> console.log(v));
+const delay = timeout => new Promise(resolve => setTimeout(resolve, timeout));
+async function f(){
+    await delay(1000);
+    await delay(2000);
+    await delay(3000);
+    return 'done'
+}
+f().then(v=> console.log(v));
 
 // 场景：只有一个await并且 reject
 // let a;
