@@ -15,10 +15,10 @@
 6. [javascript](https://github.com/guimeisang/DeepLearning/tree/master/Javascript)
 
 #### 抽象能力类别
-
-1. 架构思想&&设计能力
-2. 代码能力
-3. 算法
+1. 解决问题的能力
+2. 架构思想&&设计能力
+3. 代码能力
+4. 算法
 
 
 #### 其他能力
