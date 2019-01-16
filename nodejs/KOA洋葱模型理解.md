@@ -1,1 +1,0 @@
-https://github.com/koajs/koa/blob/master/docs/middleware.gif?raw=true
