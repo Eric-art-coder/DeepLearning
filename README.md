@@ -19,6 +19,10 @@
 5. java
 6. [javascript](https://github.com/guimeisang/DeepLearning/tree/master/Javascript)
 
+### 系统
+
+1. linux;
+
 ### 抽象能力类别
 
 1. 解决问题的能力
