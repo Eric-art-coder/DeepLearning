@@ -2,8 +2,20 @@
 #include "Sales_item.h"
 
 int main(){
-    Sales_item book1, book2;
-    std::cin >> book1 >> book2;
-    std::cout << book1 + book2 << std::endl;
+    Sales_item total;
+    if(std::cin >> total){
+        Sales_item trans;
+        while (std::cin >> trans){
+            if(total.isbn == trans.isbn){
+                total += trans;
+            }else{
+                std::cout << total << std::endl;
+                total = trans;
+            }
+        }
+        std::cout << total << std::endl;
+    }else{
+        std::cout << "NO data!" << std::endl;
+    }
     return 0;
 }
